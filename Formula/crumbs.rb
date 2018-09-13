@@ -1,8 +1,8 @@
 class Crumbs < Formula
   desc "Command-line bookmarking system for sh like consoles"
   homepage "https://github.com/fasseg/crumbs"
-  url "https://github.com/fasseg/crumbs/archive/0.0.2.tar.gz"
-  sha256 "6e1d314ef3898bc92b64aa2bffb1b24b7011b07914a0e95617227f32a1450547"
+  url "https://github.com/fasseg/crumbs/archive/0.0.3.tar.gz"
+  sha256 "206950868d86fab511e48b864cfca39d53f879d84da36531fb70803b46d3b924"
 
   depends_on "findutils"
 
