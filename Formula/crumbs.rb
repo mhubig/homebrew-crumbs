@@ -9,8 +9,8 @@ class Crumbs < Formula
     system "make"
     system "make", "install"
 
-    bash_completion.install "crumbs-completion.bash"
-    fish_completion.install "crumbs-completion.fish"
+    bash_completion.install "crumbs-completion.bash" => "crumbs.bash"
+    fish_completion.install "crumbs-completion.fish" => "crumbs.fish"
   end
 
   test do
